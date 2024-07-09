@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blink {
+            animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+        }
+
+        @keyframes blinker {
+            50% {
+                color: red; /* Màu chữ sẽ chuyển sang màu đỏ khi đi qua 50% của keyframe */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Nhân kỉ niệm 100 ngày sinh nhật cậu, tớ có món quà quà muốn tặng cậu</h2>
+    <p>Bấm vào <a class="blink" href="hi.html">đây</a> để nhận quà</p>
+</body>
+</html>
